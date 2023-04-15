@@ -1,13 +1,14 @@
 .menu{
-    height:50px;
+    height:40px;
     width:400;
     border:2px solid green;
-    font:20px Arial;
+    font:12px Arial;
     display:flex;
     justify-content: space-around;
 }
  .none{
     border:2px solid red
+    
  }
 
 .principal{
