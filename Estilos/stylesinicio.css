@@ -1,20 +1,21 @@
 p{
-    background-color: black;
+    background-color: rgb(223, 224, 119);
     width: 600px;
     height: 40px;
     text-align: center;
-    font-size: 20px;color: azure;
+    font-size: 20px;color: rgb(65, 14, 206);
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 350px;
     border-radius: 12px;
     margin: 5px solid green;
     padding-top: 15px;
+    position: absolute;
 }
 .image{
        position: absolute;
-       margin-top: 110px;
-       margin-left:358px;
+       margin-top: 160px;
+       margin-left:258px;
        width:130px;
        height:295px;
        border-radius:20px;
@@ -22,9 +23,35 @@ p{
 }
 .video{
    position: absolute;
-   margin-left: 346px;
-   margin-top: 153px;
+   margin-left: 247px;
+   margin-top: 203px;
    width:150px;
    height:200px; 
    z-index: 1;
+}
+.btn{
+    position: absolute;
+    display: block;
+    width:180px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 12px;
+    margin:235px 470px;
+    padding: 15px 30px;
+    background-color: aqua;
+    color:black;
+}
+.image1{
+    width:300px;
+    height: 300px;
+    margin-top: 160px;
+    margin-left: 800px;
+    border-radius: 20px;
+    position:absolute;
+}
+.btn:hover{
+    background-color: transparent;
+    border:2px solid color white;
+    color: black;
+
 }
