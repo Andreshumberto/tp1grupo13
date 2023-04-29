@@ -1,29 +1,52 @@
 .menu{
     height:40px;
-    width:400;
-    border:2px solid green;
+    width: 800px;
+    /*border:2px solid green;*/
     font:12px Arial;
     display:flex;
-    justify-content: space-around;
+    justify-content:space-around;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-bottom: 10px;
+    border-top: 10px;
 }
  .none{
-    border:2px solid red
-    
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    height:20px;
+    width: 80px;
+    background-color: aqua;
+    padding-top: 10px;
+    border-radius: 10px;
  }
 
 .principal{
-    border:3px solid blue;
+    border:3px solid rgb(0, 255, 115);
     padding: 10px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    float:left;
 }
 .secciones{
-    border:2px solid green;
+    /*border:2px solid green;*/
     margin: 5px;
     padding: 5px;
+    float:left;
 }
 img{
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
+    border-radius: 15px;
 }
+.avisos{
+    height: 330px;
+    width: 200px;
+    background-color: aquamarine;
+    border-radius: 12px;
+    float:right;
+    box-sizing: border-box;
+    
+}
+
